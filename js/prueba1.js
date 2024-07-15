@@ -1,4 +1,3 @@
-// 1. Declaración de variables, constantes y arrays
 const productos = [
     { id: 1, nombre: 'Lentes de receta', precio: 100 },
     { id: 2, nombre: 'Lentes de sol', precio: 50 },
@@ -11,7 +10,7 @@ const marcasLiquidos = ['Arlyt', 'Natura', 'Opti-Free', 'Bausch & Lomb'];
 
 let carrito = [];
 
-// Funciones de interacción
+
 function bienvenida() {
     alert('Bienvenido a Óptica Oasis. ¡Te invitamos a recorrer nuestra web! Antes te realizaremos algunas preguntas.');
 }
@@ -136,11 +135,10 @@ function mostrarPrecios() {
     seleccionarProducto();
 }
 
-// Función inicial para comenzar la simulación
 function iniciarSimulador() {
     bienvenida();
     preguntarNombre();
 }
 
-// Llamada a la función inicial
+
 iniciarSimulador();
